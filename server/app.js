@@ -6,6 +6,8 @@ const mongoose = require("mongoose");
 const expressHandlebars = require("express-handlebars");
 const helmet = require("helmet");
 const session = require("express-session");
+const RedisStore = require("connect-redis").default;
+const redis = require("redis");
 
 require('dotenv').config();
 const router = require("./router.js");
