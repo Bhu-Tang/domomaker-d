@@ -1,5 +1,4 @@
 const models = require('../models');
-const { db } = require('../models/Domo');
 
 const { Domo } = models;
 
